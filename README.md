@@ -2,6 +2,16 @@
 
 Connectivity Dots is a Garmin Connect IQ watch app that publishes Bluetooth and Wi-Fi status as text Connect IQ Complications. It is a publisher only: it does not draw a watch face, and it does not turn Bluetooth or Wi-Fi on or off.
 
+<p align="center">
+  <img src="docs/screenshots/connectivity-dots-watch-face.jpeg" alt="Connectivity Dots showing Bluetooth and Wi-Fi status on a Garmin watch face" width="360">
+</p>
+
+## Why This Exists
+
+Every few Garmin updates, my watch would occasionally lose its phone or Wi-Fi connection without making that obvious. Since my phone is almost always muted and my watch is how I know someone is calling me, that became frustrating quickly.
+
+This project is intentionally small: it publishes a simple field that refreshes every 15 minutes by default and reports only whether Bluetooth is connected to the phone and, optionally, whether Wi-Fi is connected. Nothing more, nothing less.
+
 ## What It Does
 
 The app reads the watch connection state, stores the latest snapshot, and publishes compact values that compatible watch faces can display in complication slots. The consuming watch face controls layout, color, font, size, refresh display, and clipping.
