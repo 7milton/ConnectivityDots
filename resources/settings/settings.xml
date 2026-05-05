@@ -1,0 +1,27 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <settings>
+        <setting propertyKey="@Properties.wifiCheckMode" title="@Strings.SettingWifiModeTitle">
+            <settingConfig type="alphaNumeric" maxLength="7"/>
+        </setting>
+
+        <setting propertyKey="@Properties.refreshIntervalMinutes" title="@Strings.SettingRefreshTitle">
+            <settingConfig type="numeric" min="5"/>
+        </setting>
+
+        <setting propertyKey="@Properties.showCombined" title="@Strings.SettingShowCombinedTitle">
+            <settingConfig type="boolean"/>
+        </setting>
+
+        <setting propertyKey="@Properties.showBluetooth" title="@Strings.SettingShowBluetoothTitle">
+            <settingConfig type="boolean"/>
+        </setting>
+
+        <setting propertyKey="@Properties.showWifi" title="@Strings.SettingShowWifiTitle">
+            <settingConfig type="boolean"/>
+        </setting>
+
+        <setting propertyKey="@Properties.debugMode" title="@Strings.SettingDebugTitle">
+            <settingConfig type="boolean"/>
+        </setting>
+    </settings>
+</resources>

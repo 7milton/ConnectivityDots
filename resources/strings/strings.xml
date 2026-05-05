@@ -1,0 +1,25 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <strings>
+        <string id="AppName">Connectivity Dots</string>
+
+        <string id="CombinedLongLabel">Connectivity Dots</string>
+        <string id="CombinedShortLabel">LINK</string>
+        <string id="BluetoothLongLabel">Bluetooth</string>
+        <string id="BluetoothShortLabel">BT</string>
+        <string id="WifiLongLabel">Wi-Fi</string>
+        <string id="WifiShortLabel">WiFi</string>
+        <string id="InitialCombinedValue">OFF</string>
+        <string id="InitialBluetoothValue">BT-</string>
+        <string id="InitialWifiValue">WiFi-</string>
+
+        <string id="SettingWifiModeTitle">Wi-Fi check mode</string>
+        <string id="SettingWifiPrecise">precise</string>
+        <string id="SettingWifiSimple">simple</string>
+        <string id="SettingWifiOff">off</string>
+        <string id="SettingRefreshTitle">Refresh interval minutes</string>
+        <string id="SettingShowCombinedTitle">Show combined</string>
+        <string id="SettingShowBluetoothTitle">Show Bluetooth</string>
+        <string id="SettingShowWifiTitle">Show Wi-Fi</string>
+        <string id="SettingDebugTitle">Debug mode</string>
+    </strings>
+</resources>

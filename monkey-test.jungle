@@ -1,0 +1,3 @@
+project.manifest = tests/manifest.xml
+base.sourcePath = source/ConnectivityValues.mc;tests/source
+base.resourcePath = tests/resources

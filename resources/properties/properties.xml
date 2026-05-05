@@ -1,0 +1,10 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <properties>
+        <property id="wifiCheckMode" type="string">precise</property>
+        <property id="refreshIntervalMinutes" type="number">15</property>
+        <property id="showCombined" type="boolean">true</property>
+        <property id="showBluetooth" type="boolean">true</property>
+        <property id="showWifi" type="boolean">true</property>
+        <property id="debugMode" type="boolean">false</property>
+    </properties>
+</resources>

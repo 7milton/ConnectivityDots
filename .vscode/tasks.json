@@ -1,0 +1,68 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CIQ: Build Publisher",
+            "type": "shell",
+            "command": "./build.sh",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "CIQ: Run Publisher",
+            "type": "shell",
+            "command": "./run.sh",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "CIQ: Run Unit Tests",
+            "type": "shell",
+            "command": "./scripts/test.sh",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "CIQ: Restart Simulator + Run Publisher",
+            "type": "shell",
+            "command": "CIQ_RESTART_SIMULATOR=1 ./run.sh",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "CIQ: Check Supported Devices",
+            "type": "shell",
+            "command": "./scripts/check-supported-devices.sh && ./scripts/list-complication-devices.sh --details",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "CIQ: Release Check",
+            "type": "shell",
+            "command": "./scripts/release-check.sh",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "CIQ: Optional No-WiFi Build",
+            "type": "shell",
+            "command": "./scripts/build-no-wifi.sh",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

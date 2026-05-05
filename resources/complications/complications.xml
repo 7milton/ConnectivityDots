@@ -1,0 +1,31 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <complications>
+        <complication id="0"
+                      access="public"
+                      longLabel="@Strings.CombinedLongLabel"
+                      shortLabel="@Strings.CombinedShortLabel"
+                      icon="@Drawables.IconConnectivity"
+                      value="@Strings.InitialCombinedValue"
+                      glancePreview="true">
+            <faceIt defaultText="@Strings.CombinedLongLabel"/>
+        </complication>
+
+        <complication id="1"
+                      access="public"
+                      longLabel="@Strings.BluetoothLongLabel"
+                      shortLabel="@Strings.BluetoothShortLabel"
+                      icon="@Drawables.IconBluetooth"
+                      value="@Strings.InitialBluetoothValue">
+            <faceIt defaultText="@Strings.BluetoothLongLabel"/>
+        </complication>
+
+        <complication id="2"
+                      access="public"
+                      longLabel="@Strings.WifiLongLabel"
+                      shortLabel="@Strings.WifiShortLabel"
+                      icon="@Drawables.IconWifi"
+                      value="@Strings.InitialWifiValue">
+            <faceIt defaultText="@Strings.WifiLongLabel"/>
+        </complication>
+    </complications>
+</resources>

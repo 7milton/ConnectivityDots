@@ -1,0 +1,24 @@
+# Connect IQ build output and generated compiler files.
+bin/
+build/
+result/
+gen/
+internal-mir/
+*.prg
+*.iq
+*.debug.xml
+*-settings.json
+*-complications.json
+
+# Local developer keys and machine-specific config.
+developer_key
+developer_key.*
+connectiq_dev_key.*
+*.der
+*.pem
+*.key
+scripts/config.local.sh
+
+# Local OS/editor files.
+.DS_Store
+.idea/

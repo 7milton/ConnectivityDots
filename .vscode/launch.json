@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "monkeyc",
+            "request": "launch",
+            "name": "Debug Publisher: Connectivity Dots",
+            "stopAtLaunch": true,
+            "device": "epix2pro51mm"
+        },
+        {
+            "type": "monkeyc",
+            "request": "launch",
+            "name": "Run Publisher: Connectivity Dots",
+            "stopAtLaunch": false,
+            "device": "epix2pro51mm"
+        },
+        {
+            "type": "monkeyc",
+            "request": "launch",
+            "name": "Choose Device",
+            "stopAtLaunch": false,
+            "device": "${command:GetTargetDevice}"
+        }
+    ]
+}
